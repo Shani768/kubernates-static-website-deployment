@@ -4,7 +4,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="mb-8">
         <h2 className="text-4xl font-bold mb-4 text-blue-700">Welcome to Our Website </h2>
-        <h2 className="text-4xl font-bold mb-4 text-blue-700">my name is shani 1</h2>
+        <h2 className="text-4xl font-bold mb-4 text-blue-700">my name is shani 123</h2>
         
         <p className="text-lg max-w-xl mx-auto mb-4">
           We create modern and beautiful web applications using React and Vite.
