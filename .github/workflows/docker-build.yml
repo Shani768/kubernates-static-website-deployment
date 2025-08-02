@@ -40,7 +40,8 @@ jobs:
           git config --global user.name "shani768"
           git config --global user.email "zeeshantahir779@gmail.com"
           git add k8s/manifest/frontend.yaml
-          git commit -m "Update frontend image tag to ${IMAGE_TAG}"
-          git push
+          git commit -m "Update frontend image tag to ${IMAGE_TAG}" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Shani768/kubernates-static-website-deployment.git
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

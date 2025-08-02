@@ -3,7 +3,9 @@ export default function Home() {
     <div className="p-6 text-center">
       {/* Hero Section */}
       <section className="mb-8">
-        <h2 className="text-4xl font-bold mb-4 text-blue-700">Welcome to Our Website my name is shani768 github username and  email shani</h2>
+        <h2 className="text-4xl font-bold mb-4 text-blue-700">Welcome to Our Website </h2>
+        <h2 className="text-4xl font-bold mb-4 text-blue-700">my name is shani </h2>
+        
         <p className="text-lg max-w-xl mx-auto mb-4">
           We create modern and beautiful web applications using React and Vite.
           Explore our pages to know more about us and get in touch!
