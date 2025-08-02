@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: react-frontend
-          image: shani000786/static-react-website:latest  # ✅ Will be updated by CI
+          image: shani000786/static-react-website:09c712ab
           ports:
             - containerPort: 80
