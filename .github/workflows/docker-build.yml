@@ -33,7 +33,7 @@ jobs:
 
       - name: Update Kubernetes Deployment Image Tag
         run: |
-          sed -i "s|image: shani000786/static-react-website:.*|image: shani000786/static-react-website:${IMAGE_TAG}|g" k8s/manifest/frontend-deployment.yaml
+          sed -i "s|image: shani000786/static-react-website:.*|image: shani000786/static-react-website:${IMAGE_TAG}|g" k8s/manifest/frontend.yaml
 
       - name: Commit and Push Updated YAML
         run: |
