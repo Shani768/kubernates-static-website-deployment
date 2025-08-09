@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: react-frontend-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: react-frontend
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30007   # ✅ Optional, if you want a fixed port (range 30000–32767)
